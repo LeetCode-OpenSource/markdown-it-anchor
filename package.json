@@ -29,6 +29,11 @@
     "build": "babel index.js --out-file dist/index.js --presets=env"
   },
   "runkitExampleFilename": "runkit.js",
+  "standard": {
+    "ignore": [
+      "/dist/"
+    ]
+  },
   "dependencies": {},
   "devDependencies": {
     "babel-cli": "^6.26.0",
